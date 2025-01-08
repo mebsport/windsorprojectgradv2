@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 const MobileNavLink = ({ href, title }) => {
   return (
@@ -8,7 +8,7 @@ const MobileNavLink = ({ href, title }) => {
     >
       {title}
     </Link>
-  )
-}
+  );
+};
 
-export default MobileNavLink
+export default MobileNavLink;

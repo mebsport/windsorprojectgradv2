@@ -1,5 +1,5 @@
-import React from 'react'
-import MobileNavLink from './MobileNavLink'
+import React from "react";
+import MobileNavLink from "./MobileNavLink";
 
 const MenuOverlay = ({ links }) => {
   return (
@@ -10,7 +10,7 @@ const MenuOverlay = ({ links }) => {
         </li>
       ))}
     </ul>
-  )
-}
+  );
+};
 
-export default MenuOverlay
+export default MenuOverlay;
