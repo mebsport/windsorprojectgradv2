@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation'
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className='text-black'>
       <div className='grid grid-cols-3 lg:grid-cols-12 '>
         <div className='col-span-7 place-self-center text-center sm:text-left'>
           <h1 className='text-black mb-4 text-xl lg:text-2xl font-extrabold'>
@@ -74,6 +74,13 @@ const HeroSection = () => {
           />
         </div>
       </div>
+      <div className='mt-4  items-center text-center	'>
+        <h1 className='mt-4 text-3xl lg:text-5xl font-extrabold '>
+         What's New?
+        </h1>
+        <p className='mt-10 max-w-[740px]  text-xs sm:text-base'>Hi, this is just placeholder text for now replace with a small blurb about how this is where yyou can find upcoming events or whatever u wantt o add fr lol. and don't add pselling mistakes when you fix it</p>
+      </div>
+
     </section>
   )
 }
