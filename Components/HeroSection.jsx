@@ -83,8 +83,6 @@ const HeroSection = () => {
           about how this is where yyou can find upcoming events or whatever u
           wantt o add fr lol. and don't add pselling mistakes when you fix it
         </p>
-        #fix later not working doesn't look right. Maybe use a diff api for
-        email sending etc.
         <form
           className='flex justify-between max-w-[500px] scale-100 sm:scale-100 mx-auto mt-10 border border-black shadow-[-7px_7px_0px_#000000]'
           action=''
