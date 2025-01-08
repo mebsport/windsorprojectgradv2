@@ -1,5 +1,7 @@
+'use client'
 import HeroSection from '@/Components/HeroSection'
 import NavBar from '@/Components/NavBar'
+import BlogItem from '@/Components/BlogItem'
 
 export default function Home() {
   return (
@@ -7,6 +9,7 @@ export default function Home() {
       <NavBar />
       <div className='container mt-24 mx-auto py-4 px-12'>
         <HeroSection />
+        <BlogItem/>
       </div>
     </main>
   )
