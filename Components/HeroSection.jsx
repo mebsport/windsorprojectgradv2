@@ -79,9 +79,10 @@ const HeroSection = () => {
          What's New?
         </h1>
         <p className='mt-10 max-w-[740px]  text-xs sm:text-base'>Hi, this is just placeholder text for now replace with a small blurb about how this is where yyou can find upcoming events or whatever u wantt o add fr lol. and don't add pselling mistakes when you fix it</p>
+        #fix later not working doesn't look right. Maybe use a diff api for email sending etc.
       <form className='flex justify-between max-w-[500px] scale-100 sm:scale-100 mx-auto mt-10 border border-black shadow-[-7px_7px_0px_#000000]'action="">
         <input type='email' placeholder='Enter Your Email' className='pl-4 outline-none'></input>
-        <button className='border-1 border-black py-4 px-4 sm:px-8 active:bg-gray-600 active:text-white'>Subscribe</button>
+        <button type='submit' className='border-l border-black py-4 px-4 sm:px-8 active:bg-gray-600 active:text-white'>Subscribe</button>
       </form>
       </div>
 
