@@ -12,10 +12,10 @@ export default function Home() {
       <NavBar />
       <div className='container mt-24 mx-auto py-4 px-12'>
         <HeroSection />
+        <CountdownTimer />
         <BlogHeaderSection />
         <BlogItem />
         <AboutSection />
-        <CountdownTimer />
       </div>
     </main>
   );
