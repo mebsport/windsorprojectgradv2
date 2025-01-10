@@ -1,10 +1,10 @@
 "use client";
 import HeroSection from "@/Components/HeroSection";
 import NavBar from "@/Components/NavBar";
-import BlogItem from "@/Components/BlogItem";
 import CountdownTimer from "@/Components/CountdownTimer";
 import BlogHeaderSection from "@/Components/BlogHeaderSection";
 import AboutSection from "@/Components/AboutSection";
+import BlogList from "@/Components/BlogList";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         <HeroSection />
         <CountdownTimer />
         <BlogHeaderSection />
-        <BlogItem />
+        <BlogList />
         <AboutSection />
       </div>
     </main>
