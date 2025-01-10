@@ -1,41 +1,41 @@
-"use client";
-import React, { useState } from "react";
-import Link from "next/link";
-import NavLink from "./NavLink";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import MenuOverlay from "./MenuOverlay";
-import Image from "next/image";
+'use client'
+import React, { useState } from 'react'
+import Link from 'next/link'
+import NavLink from './NavLink'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
+import MenuOverlay from './MenuOverlay'
+import Image from 'next/image'
 
 const navLinks = [
   {
-    href: "/",
-    title: "Home",
+    href: '/',
+    title: 'Home',
   },
   {
-    href: "#about",
-    title: "About",
+    href: '#about',
+    title: 'About',
   },
 
   {
-    href: "/fundraising",
-    title: "Fundraising",
+    href: '/calendar',
+    title: 'Calendar',
   },
   {
-    href: "/events",
-    title: "Events",
+    href: '/gallery',
+    title: 'Galery',
   },
   {
-    href: "/volunteer",
-    title: "Volunteer",
+    href: '/volunteer',
+    title: 'Volunteer',
   },
   {
-    href: "/store",
-    title: "Store",
+    href: '/store',
+    title: 'Store',
   },
-];
+]
 
 const NavBar = () => {
-  const [navBarOpen, setNavBarOpen] = useState(false);
+  const [navBarOpen, setNavBarOpen] = useState(false)
 
   return (
     <nav className='fixed top-0 right-0 left-0 z-10 bg-[#c7c7c7] bg-opacity-100'>
@@ -76,7 +76,7 @@ const NavBar = () => {
       </div>
       {navBarOpen ? <MenuOverlay links={navLinks} /> : null}
     </nav>
-  );
-};
+  )
+}
 
-export default NavBar;
+export default NavBar
