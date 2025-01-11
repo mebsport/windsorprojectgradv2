@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { useMediaQuery } from "react-responsive";
 
 const ImageCarousel = ({ images, interval = 3000 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Check if the screen width is large (min-width: 1024px)
+  const isLargeScreen = useMediaQuery({ minWidth: 1021 });
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -19,12 +23,14 @@ const ImageCarousel = ({ images, interval = 3000 }) => {
         style={{
           maxWidth: "500px",
           maxHeight: "500px",
-          minWidth: "450px",
-          minHeight: "450px",
           width: "100%",
           height: "auto",
           borderRadius: "8px",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+          ...(isLargeScreen && {
+            minWidth: "450px",
+            minHeight: "450px",
+          }),
         }}
       />
       <div

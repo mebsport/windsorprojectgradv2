@@ -1,15 +1,24 @@
 import React from "react";
+import { useMediaQuery } from "react-responsive";
 import ImageCarousel from "./ImageCarousel";
 import { image_urls } from "@/Assets/assets";
 
 const AboutSection = () => {
+  // Check if screen width is larger than 830px
+  const isLargeScreen = useMediaQuery({ minWidth: 1021 });
+
   return (
-    <div id='about' className='mt-4 flex flex-col'>
+    <div id='about' className='mt-4'>
       <span className='text-center mt-4 font-bold text-2xl lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#8c2724] via-black to-[#8c2724]'>
         What is Project Graduation?{" "}
       </span>
-      <div className='mt-6 flex flex-col md:flex-row lg:gap-6'>
-        <div className='lg:flex-2'>
+      <div
+        className={`mt-6 ${
+          isLargeScreen ? "flex flex-row gap-6" : "flex flex-col"
+        }`}
+      >
+        {/* Text Section */}
+        <div className={`${isLargeScreen ? "lg:flex-2" : ""}`}>
           <p className='mt-6 text-black font-semibold text-base sm:text-lg lg:text-xl mb-6'>
             <span className='font-bold'>Project Graduation</span> is an annual
             event that is exclusively organized for the graduating seniors of
@@ -36,6 +45,8 @@ const AboutSection = () => {
             throughout the night.
           </p>
         </div>
+
+        {/* Carousel Section */}
         <div className='lg:flex-1 flex justify-center items-center mt-6 lg:mt-0'>
           <ImageCarousel images={image_urls} interval={5000} />
         </div>
