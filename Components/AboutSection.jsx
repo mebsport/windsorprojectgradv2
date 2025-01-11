@@ -11,15 +11,13 @@ const AboutSection = () => {
       <div className='mt-6 flex flex-col md:flex-row lg:gap-6'>
         <div className='lg:flex-2'>
           <p className='mt-6 text-black font-semibold text-base sm:text-lg lg:text-xl mb-6'>
-            <span className='font-bold sm:text-xl lg:text-2xl'>
-              Project Graduation
-            </span>{" "}
-            is an annual event that is exclusively organized for the graduating
-            seniors of Windsor High School. The event is aimed at providing a
-            safe, drug-free, and fun-filled environment for the seniors to
-            celebrate their graduation with their friends. The event is entirely
-            managed and organized by parent volunteers, who put in a year-long
-            effort to raise funds and plan for the event.
+            <span className='font-bold'>Project Graduation</span> is an annual
+            event that is exclusively organized for the graduating seniors of
+            Windsor High School. The event is aimed at providing a safe,
+            drug-free, and fun-filled environment for the seniors to celebrate
+            their graduation with their friends. The event is entirely managed
+            and organized by parent volunteers, who put in a year-long effort to
+            raise funds and plan for the event.
           </p>
           <p className='text-black font-semibold text-base sm:text-lg lg:text-xl mb-6'>
             The night is full of entertaining activities, including music and
