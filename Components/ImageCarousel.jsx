@@ -19,6 +19,8 @@ const ImageCarousel = ({ images, interval = 3000 }) => {
         style={{
           maxWidth: "500px",
           maxHeight: "500px",
+          minWidth: "450px",
+          minHeight: "450px",
           width: "100%",
           height: "auto",
           borderRadius: "8px",
