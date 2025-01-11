@@ -3,7 +3,7 @@ import Image from "next/image";
 import { blog_data } from "@/Assets/assets";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 
-const BlogItem = ({ title, description, category, image }) => {
+const BlogItem = ({ title, description, category, image, date }) => {
   return (
     <div className='mb-2 mt-2 ml-2 mr-2 p-3 max-w-[330px] sm:max-w-[300px] bg-white border border-black hover:shadow-[-7px_7px_0px_#000000]'>
       <Image
@@ -14,7 +14,7 @@ const BlogItem = ({ title, description, category, image }) => {
         className='border-b border-black'
       />
       <p className='ml-5 mt-5 px-1 inline-block bg-black text-white text-sm'>
-        {category}
+        {category} | {date}
       </p>
       <div className='p-5'>
         <h5 className='mb-2 text-lg font-medium tracking-tight text-black'>
