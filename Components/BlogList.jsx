@@ -15,7 +15,7 @@ const BlogList = () => {
         <button className='py-1 px-4'>Meeting</button>
         <button className='py-1 px-4'>Volunteer</button>
       </div>
-      <div className='flex flex-wrap justify-around gap-1 gap-y-10 mb-16 xl:mx-24'>
+      <div className='flex flex-wrap justify-center items-center gap-6 mb-16 xl:mx-24'>
         {blog_data.map((item, index) => {
           return (
             <BlogItem
