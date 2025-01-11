@@ -5,7 +5,7 @@ import { ArrowRightIcon } from "@heroicons/react/24/solid";
 
 const BlogItem = ({ title, description, category, image }) => {
   return (
-    <div className='max-w-[330px] sm:max-w-[300px] bg-white border border-black hover:shadow-[-7px_7px_0px_#000000]'>
+    <div className='mb-2 mt-2 ml-2 mr-2 p-3 max-w-[330px] sm:max-w-[300px] bg-white border border-black hover:shadow-[-7px_7px_0px_#000000]'>
       <Image
         src={image}
         alt=''

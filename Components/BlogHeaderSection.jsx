@@ -2,9 +2,9 @@ import React from "react";
 
 const BlogHeaderSection = () => {
   return (
-    <div className='mt-4 text-center items-center text-black'>
+    <div className='flex flex-col mt-4 text-center items-center text-black mb-4'>
       <h1 className='mt-4 text-3xl lg:text-5xl font-extrabold '>What's New?</h1>
-      <p className='mt-10 max-w-[740px]  text-xs sm:text-base'>
+      <p className='mt-10 max-w-[740px]  text-xs sm:text-base text-center'>
         Hi, this is just placeholder text for now replace with a small blurb
         about how this is where yyou can find upcoming events or whatever u
         wantt o add fr lol. and don't add pselling mistakes when you fix it
