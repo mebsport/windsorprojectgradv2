@@ -6,7 +6,8 @@ export const blog_data = [
       "Donate your gently used clothing to Project Graduation to raise money for Windsor’s graduating seniors. Bag your clean gently used clothes in garbage bags and drop them off at Windsor High School (red tile lobby) from March 6-8. All students who bring in two tall kitchen garbage bags full of clothes will be entered into a raffle to win a gift card!",
     image: "/Images/PostHeaders/fundrive_logo.png",
     date: "March 6-8",
-    category: "Fundraisers",
+    subcategory: "Fundraisers",
+    category: "Event",
   },
   {
     id: 2,
@@ -15,7 +16,8 @@ export const blog_data = [
       "Join us at St. Casmirs in Windsor for a fun night of Trivia! Win prizes while supporting Windsor’s graduating seniors. Bring your own snacks and purchase drinks from the cash bar.",
     image: "/Images/PostHeaders/trivia.webp",
     date: "Date TBD",
-    category: "Fundraisers",
+    subcategory: "Fundraisers",
+    category: "Event",
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ export const blog_data = [
       "A percentage of proceeds from this event will go to Project Graduation.",
     image: "/Images/PostHeaders/barts_restaurant.jpg",
     date: "Date TBD",
-    category: "Fundraisers",
+    subcategory: "Fundraisers",
+    category: "Event",
   },
   {
     id: 4,
@@ -33,7 +36,8 @@ export const blog_data = [
       "A percentage of the evening’s proceeds will go to Project Graduation.",
     image: "/Images/PostHeaders/back_east_logo.png",
     date: "Date TBD",
-    category: "Fundraisers",
+    subcategory: "Fundraisers",
+    category: "Event",
   },
   {
     id: 5,
@@ -42,7 +46,8 @@ export const blog_data = [
       "A percentage of tickets sold for this fundraiser will go to Project Graduation.",
     image: "/Images/PostHeaders/dudley_town.webp",
     date: "Date TBD",
-    category: "Fundraisers",
+    subcategory: "Fundraisers",
+    category: "Event",
   },
   {
     id: 6,
@@ -51,7 +56,8 @@ export const blog_data = [
       "Rita’s Ice truck will be at Windsor High School, and a percentage of proceeds sold will go to Project Graduation.",
     image: "/Images/PostHeaders/ritas_image.jpg",
     date: "Date TBD",
-    category: "Fundraisers",
+    subcategory: "Fundraisers",
+    category: "Event",
   },
   {
     id: 7,
@@ -60,7 +66,8 @@ export const blog_data = [
       "Buy a raffle ticket to be entered into our 50/50 raffle at high school (and possibly middle school) basketball games. If your ticket number is pulled, you will receive half of the money raised that night!",
     image: "/Images/PostHeaders/50_50.jpg",
     date: "On the dates of basketball games",
-    category: "Fundraisers",
+    subcategory: "Fundraisers",
+    category: "Event",
   },
   {
     id: 8,
@@ -69,7 +76,8 @@ export const blog_data = [
       "Purchase a lawn sign to congratulate a graduating Windsor High School student.",
     image: "/Images/WindsorW.png",
     date: "Starting March",
-    category: "Fundraisers",
+    subcategory: "Fundraisers",
+    category: "Shop",
   },
   {
     id: 9,
@@ -78,7 +86,8 @@ export const blog_data = [
       "Flock a friend or neighbor with a flock of flamingos! Project Graduation will place a flock at the recipient’s home with a note. Let’s fill Windsor with pink flamingos this spring! All proceeds go toward Project Graduation.",
     image: "/Images/Flocked.JPG",
     date: "Starting April",
-    category: "Fundraisers",
+    subcategory: "Fundraisers",
+    category: "Shop",
   },
   {
     id: 10,
@@ -87,7 +96,8 @@ export const blog_data = [
       "Do you own a business? Help keep teens safe on graduation night by sponsoring Windsor High School Project Graduation. Your donation will help create a fun and safe celebration for graduating seniors this May!",
     image: "/Images/PostHeaders/sponsors_wanted.webp",
     date: "Ongoing",
-    category: "Sponsorship",
+    subcategory: "Sponsorship",
+    category: "Opportunities",
   },
 ];
 
